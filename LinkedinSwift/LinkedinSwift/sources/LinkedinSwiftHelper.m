@@ -118,4 +118,8 @@
     return [self isLinkedinAppInstalled] && [LISDKCallbackHandler application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
 }
 
++ (void)clearSession {
+    [LISDKSessionManager clearSession];
+}
+
 @end

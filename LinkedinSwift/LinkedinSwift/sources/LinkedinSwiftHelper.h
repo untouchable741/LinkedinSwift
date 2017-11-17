@@ -81,5 +81,9 @@
  */
 + (BOOL)application:(UIApplication* _Nonnull)application openURL:(NSURL* _Nullable)url sourceApplication:(NSString* _Nullable)sourceApplication annotation:(id _Nullable)annotation;
 
+/**
+ call this to force clear session
+ */
++ (void)clearSession;
 
 @end
